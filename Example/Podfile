@@ -1,0 +1,6 @@
+use_frameworks!
+target 'AttachPicker_Tests' do
+  pod 'AttachPicker', :path => '../'
+  
+  
+end

@@ -1,0 +1,16 @@
+PODS:
+  - AttachPicker (0.1.0)
+
+DEPENDENCIES:
+  - AttachPicker (from `../`)
+
+EXTERNAL SOURCES:
+  AttachPicker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AttachPicker: ebc44575652687ff1c99ded7bfd6827c5017ebc0
+
+PODFILE CHECKSUM: 2bcfa3f5d371a776d711084a40581d5add00acf9
+
+COCOAPODS: 1.8.4
