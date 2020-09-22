@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AttachPicker'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A simple library for user access to gallery, camera and device documents.'
 
 # This description is used to generate tags and improve search results.
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'You can apply flexible customization to view controllers, set data types, specify static collections of variables for further quick use.'
 
   s.homepage         = 'https://github.com/dmitriyap11/AttachPicker'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -30,7 +28,9 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'AttachPicker/Classes/**/*'
+   s.source_files = 'AttachPicker/Classes/**/*'
+#   s.source_files  = 'NAME_OF_POD/Classes/*.{swift}'
+#    s.source_files  = 'AttachPicker/Classes/*.{h,m,swift}'
   
   # s.resource_bundles = {
   #   'AttachPicker' => ['AttachPicker/Assets/*.png']

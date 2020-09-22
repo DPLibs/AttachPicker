@@ -16,6 +16,7 @@
 		E2ED467C251A840D004BE72D /* AttachModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2ED4678251A840D004BE72D /* AttachModel.swift */; };
 		E2ED467D251A840D004BE72D /* AttachPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2ED4679251A840D004BE72D /* AttachPicker.swift */; };
 		E2ED467F251A8650004BE72D /* Data+MimeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2ED467E251A8650004BE72D /* Data+MimeType.swift */; };
+		E2ED4689251A9633004BE72D /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = E2ED4688251A9633004BE72D /* .gitkeep */; };
 		E5688A89693EEA018E79404F329BC5F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		EF260084122205B3D277FDADB8B476CC /* Pods-AttachPicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4EC2D13D5C7597C24A6FB42C5A5E2D9 /* Pods-AttachPicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -56,6 +57,7 @@
 		E2ED4678251A840D004BE72D /* AttachModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttachModel.swift; sourceTree = "<group>"; };
 		E2ED4679251A840D004BE72D /* AttachPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttachPicker.swift; sourceTree = "<group>"; };
 		E2ED467E251A8650004BE72D /* Data+MimeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+MimeType.swift"; sourceTree = "<group>"; };
+		E2ED4688251A9633004BE72D /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		E6E7C068596D1B97F007BCA80BFA7709 /* AttachPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AttachPicker-dummy.m"; sourceTree = "<group>"; };
 		FEEF5448F1F2C4A4DFC462DEAD79B458 /* Pods_AttachPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AttachPicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -91,11 +93,7 @@
 		14E6DFB2EF2036B26EF2C3CC1D750A27 /* AttachPicker */ = {
 			isa = PBXGroup;
 			children = (
-				E2ED4677251A840D004BE72D /* AttachFileType.swift */,
-				E2ED4678251A840D004BE72D /* AttachModel.swift */,
-				E2ED4679251A840D004BE72D /* AttachPicker.swift */,
-				E2ED4676251A840D004BE72D /* AttachProvider.swift */,
-				E2ED467E251A8650004BE72D /* Data+MimeType.swift */,
+				E2ED4687251A9633004BE72D /* Classes */,
 				6035C0E1FD9CD592F369916E7AF23D2E /* Pod */,
 				C821E826C5944E3BC18258E915666371 /* Support Files */,
 			);
@@ -177,6 +175,20 @@
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2ED4687251A9633004BE72D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E2ED4677251A840D004BE72D /* AttachFileType.swift */,
+				E2ED4678251A840D004BE72D /* AttachModel.swift */,
+				E2ED4679251A840D004BE72D /* AttachPicker.swift */,
+				E2ED4676251A840D004BE72D /* AttachProvider.swift */,
+				E2ED467E251A8650004BE72D /* Data+MimeType.swift */,
+				E2ED4688251A9633004BE72D /* .gitkeep */,
+			);
+			name = Classes;
+			path = AttachPicker/Classes;
 			sourceTree = "<group>";
 		};
 		F49BD1ABA4771783F3FB4C892ABB4B14 /* Products */ = {
@@ -285,6 +297,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2ED4689251A9633004BE72D /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +395,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 0.2.0;
 				MODULEMAP_FILE = "Target Support Files/AttachPicker/AttachPicker.modulemap";
 				PRODUCT_MODULE_NAME = AttachPicker;
 				PRODUCT_NAME = AttachPicker;
@@ -414,6 +428,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 0.2.0;
 				MODULEMAP_FILE = "Target Support Files/AttachPicker/AttachPicker.modulemap";
 				PRODUCT_MODULE_NAME = AttachPicker;
 				PRODUCT_NAME = AttachPicker;
