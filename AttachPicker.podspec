@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AttachPicker'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'A simple library for user access to gallery, camera and device documents.'
 
 # This description is used to generate tags and improve search results.
