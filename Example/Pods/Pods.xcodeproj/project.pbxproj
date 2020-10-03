@@ -7,65 +7,86 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		345F438B5BC6EDB7549BD77CD25AD51E /* Pods-AttachPicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B11CC927A3C1D90747B7D8AD115C6D4 /* Pods-AttachPicker_Tests-dummy.m */; };
+		16799E080FD18B88D6107BA59AC71CDD /* Pods-AttachPicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F457C74370B86EAD1766EB3E515182 /* Pods-AttachPicker_Tests-dummy.m */; };
+		24B8DC24C8612098B45A98D37F8376EA /* Pods-AttachPicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D127A0310DD5D80572D8E35EF157AE4 /* Pods-AttachPicker_Example-dummy.m */; };
+		44F35414B9CF6AEC312CC07092D77D28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		8FF6FAD53A26C58EB2DB6A2AE99A5492 /* AttachPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B0FA84BDB2E55BACE1039C05A4DA7C0 /* AttachPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A709F36E6E1B9D0618A6A1A94E28A6A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9281B883C05B423B6D82CAF1D1B17438 /* Pods-AttachPicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FB65575332DEA0E3E2AC6D4221F956D /* Pods-AttachPicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9597E4816F23755429C72C7301707AA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		C06D86460AC17EF1B2D505C0215E91E4 /* AttachPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E7C068596D1B97F007BCA80BFA7709 /* AttachPicker-dummy.m */; };
-		E2ED467A251A840D004BE72D /* AttachProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2ED4676251A840D004BE72D /* AttachProvider.swift */; };
-		E2ED467B251A840D004BE72D /* AttachFileType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2ED4677251A840D004BE72D /* AttachFileType.swift */; };
-		E2ED467C251A840D004BE72D /* AttachModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2ED4678251A840D004BE72D /* AttachModel.swift */; };
-		E2ED467D251A840D004BE72D /* AttachPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2ED4679251A840D004BE72D /* AttachPicker.swift */; };
-		E2ED467F251A8650004BE72D /* Data+MimeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2ED467E251A8650004BE72D /* Data+MimeType.swift */; };
+		E21CE26C2528D8D900FEC4A7 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21CE26B2528D8D900FEC4A7 /* Assets.swift */; };
+		E2D03F102528AFAE00A6D608 /* AttachFileType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D03F0B2528AFAE00A6D608 /* AttachFileType.swift */; };
+		E2D03F112528AFAE00A6D608 /* AttachPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D03F0C2528AFAE00A6D608 /* AttachPicker.swift */; };
+		E2D03F122528AFAE00A6D608 /* AttachProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D03F0D2528AFAE00A6D608 /* AttachProvider.swift */; };
+		E2D03F132528AFAE00A6D608 /* AttachModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D03F0E2528AFAE00A6D608 /* AttachModel.swift */; };
+		E2D03F142528AFAE00A6D608 /* Data+MimeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D03F0F2528AFAE00A6D608 /* Data+MimeType.swift */; };
 		E5688A89693EEA018E79404F329BC5F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		EF260084122205B3D277FDADB8B476CC /* Pods-AttachPicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4EC2D13D5C7597C24A6FB42C5A5E2D9 /* Pods-AttachPicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE583AD4EA04DE612247F7E3DFE1902C /* Pods-AttachPicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD7E0989AE972E72963866B82E002B54 /* Pods-AttachPicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8F710546CD55E8A473DF33018B978842 /* PBXContainerItemProxy */ = {
+		49DE033556C17350707FD263F34C44EF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D6E002B3A411B4771C3C20BE1B521C26;
 			remoteInfo = AttachPicker;
 		};
+		72A607E0C3C7A6810BCE5DA19BD7624E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0685F6A8460E71A567EA083E3342EB7;
+			remoteInfo = "Pods-AttachPicker_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01001E170D61C9A732E2CA1AA7DEA086 /* Pods-AttachPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AttachPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		034E1DD59C52D541FBDC4DB464B79660 /* AttachPicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AttachPicker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0BA3626B78D3D02596E314CB99503C62 /* Pods-AttachPicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AttachPicker_Example.modulemap"; sourceTree = "<group>"; };
 		0F65D87DACFBC5E1B320D0F03D598651 /* AttachPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AttachPicker.xcconfig; sourceTree = "<group>"; };
-		1C1FA593D41A6D15E7DCFAB7B91AC77F /* Pods-AttachPicker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AttachPicker_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		2351DF6C42C48E81C816D191A3681EC0 /* Pods-AttachPicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AttachPicker_Tests.modulemap"; sourceTree = "<group>"; };
-		2B2214815477214BAFED2EFC624AD9B6 /* Pods-AttachPicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AttachPicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		13A79145446DDDC39446A8FF9DACAF15 /* Pods-AttachPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AttachPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2091A246FD767511F764CB4684754F6B /* Pods-AttachPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AttachPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		26F457C74370B86EAD1766EB3E515182 /* Pods-AttachPicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AttachPicker_Tests-dummy.m"; sourceTree = "<group>"; };
+		30FA2789C17799589BD00393DD393A2C /* Pods-AttachPicker_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AttachPicker_Tests-Info.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		32EA832C6C1AFC165839A9F4822F07AD /* AttachPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AttachPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		33DC5E2E43474096F0DEF2BFA6207C03 /* Pods-AttachPicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AttachPicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3A1FDCDD6303B3F852CB8B8D0BC88C25 /* AttachPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AttachPicker.modulemap; sourceTree = "<group>"; };
 		3ADE4BE2ACE248C6812C6593F76FE2AB /* AttachPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AttachPicker-prefix.pch"; sourceTree = "<group>"; };
 		3B0FA84BDB2E55BACE1039C05A4DA7C0 /* AttachPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AttachPicker-umbrella.h"; sourceTree = "<group>"; };
-		5753A4E5C3905B0955A2BBBD2EF47283 /* Pods-AttachPicker_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AttachPicker_Tests-Info.plist"; sourceTree = "<group>"; };
-		8B11CC927A3C1D90747B7D8AD115C6D4 /* Pods-AttachPicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AttachPicker_Tests-dummy.m"; sourceTree = "<group>"; };
+		3F9F936067355AE6ABDE6C979A33835D /* Pods-AttachPicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AttachPicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		47718084F807268EC23A36B24DFEC8ED /* Pods-AttachPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AttachPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5EC0D642447F77E1F53772934E42C9FA /* Pods-AttachPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AttachPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7FB65575332DEA0E3E2AC6D4221F956D /* Pods-AttachPicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AttachPicker_Example-umbrella.h"; sourceTree = "<group>"; };
+		8398CF81A6C92CA2CC6A5B32A8FF6209 /* Pods-AttachPicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AttachPicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8D127A0310DD5D80572D8E35EF157AE4 /* Pods-AttachPicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AttachPicker_Example-dummy.m"; sourceTree = "<group>"; };
 		9116EC527705DC4DCE14FC2BB5233189 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A55B0D253520CB478F95C705ACA8F225 /* Pods-AttachPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AttachPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A9B4597765C93B224543A3AB5220A2B3 /* Pods-AttachPicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AttachPicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B05C4A59CF914EBC8DCC458F9FD1F4C8 /* AttachPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AttachPicker-Info.plist"; sourceTree = "<group>"; };
-		D4EC2D13D5C7597C24A6FB42C5A5E2D9 /* Pods-AttachPicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AttachPicker_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C690775C89FFAE2947AD09CC66D6626B /* Pods-AttachPicker_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AttachPicker_Example-Info.plist"; sourceTree = "<group>"; };
+		CA24508C59BC66EBB0BB254842D975A7 /* Pods-AttachPicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AttachPicker_Tests.modulemap"; sourceTree = "<group>"; };
 		D98DD40BC3829610CD30C76B38E3617C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		E2ED4676251A840D004BE72D /* AttachProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttachProvider.swift; sourceTree = "<group>"; };
-		E2ED4677251A840D004BE72D /* AttachFileType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttachFileType.swift; sourceTree = "<group>"; };
-		E2ED4678251A840D004BE72D /* AttachModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttachModel.swift; sourceTree = "<group>"; };
-		E2ED4679251A840D004BE72D /* AttachPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttachPicker.swift; sourceTree = "<group>"; };
-		E2ED467E251A8650004BE72D /* Data+MimeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+MimeType.swift"; sourceTree = "<group>"; };
+		DA090F6436CE2ABCA1F156D6961B7E16 /* Pods-AttachPicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AttachPicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E190B20A9006F0DAF40602E2C13E3CEC /* Pods-AttachPicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AttachPicker_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E21CE26B2528D8D900FEC4A7 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Assets.swift; path = AttachPicker/Classes/Assets.swift; sourceTree = "<group>"; };
+		E2D03F0B2528AFAE00A6D608 /* AttachFileType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AttachFileType.swift; path = AttachPicker/Classes/AttachFileType.swift; sourceTree = "<group>"; };
+		E2D03F0C2528AFAE00A6D608 /* AttachPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AttachPicker.swift; path = AttachPicker/Classes/AttachPicker.swift; sourceTree = "<group>"; };
+		E2D03F0D2528AFAE00A6D608 /* AttachProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AttachProvider.swift; path = AttachPicker/Classes/AttachProvider.swift; sourceTree = "<group>"; };
+		E2D03F0E2528AFAE00A6D608 /* AttachModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AttachModel.swift; path = AttachPicker/Classes/AttachModel.swift; sourceTree = "<group>"; };
+		E2D03F0F2528AFAE00A6D608 /* Data+MimeType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Data+MimeType.swift"; path = "AttachPicker/Classes/Data+MimeType.swift"; sourceTree = "<group>"; };
 		E6E7C068596D1B97F007BCA80BFA7709 /* AttachPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AttachPicker-dummy.m"; sourceTree = "<group>"; };
+		F28D6C39602835A905D780F3EE3775BC /* Pods_AttachPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AttachPicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD7E0989AE972E72963866B82E002B54 /* Pods-AttachPicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AttachPicker_Tests-umbrella.h"; sourceTree = "<group>"; };
 		FEEF5448F1F2C4A4DFC462DEAD79B458 /* Pods_AttachPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AttachPicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4CA7DC3C3B3767AF126DACB2198846CF /* Frameworks */ = {
+		3281B43A4FCAE3D7CEAB9C611AC6AB64 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A709F36E6E1B9D0618A6A1A94E28A6A2 /* Foundation.framework in Frameworks */,
+				9597E4816F23755429C72C7301707AA6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,21 +98,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		70351603AE9351254C2A78390E2D2988 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44F35414B9CF6AEC312CC07092D77D28 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		11574619FCC38608714DE17E838E3CBC /* Targets Support Files */ = {
+		0A459E3E2432000C202F3D6DF4E008B6 /* Pods-AttachPicker_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				226BB4CA86FBCE984A964FA1C828C3C1 /* Pods-AttachPicker_Tests */,
+				CA24508C59BC66EBB0BB254842D975A7 /* Pods-AttachPicker_Tests.modulemap */,
+				3F9F936067355AE6ABDE6C979A33835D /* Pods-AttachPicker_Tests-acknowledgements.markdown */,
+				DA090F6436CE2ABCA1F156D6961B7E16 /* Pods-AttachPicker_Tests-acknowledgements.plist */,
+				26F457C74370B86EAD1766EB3E515182 /* Pods-AttachPicker_Tests-dummy.m */,
+				30FA2789C17799589BD00393DD393A2C /* Pods-AttachPicker_Tests-Info.plist */,
+				FD7E0989AE972E72963866B82E002B54 /* Pods-AttachPicker_Tests-umbrella.h */,
+				13A79145446DDDC39446A8FF9DACAF15 /* Pods-AttachPicker_Tests.debug.xcconfig */,
+				47718084F807268EC23A36B24DFEC8ED /* Pods-AttachPicker_Tests.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-AttachPicker_Tests";
+			path = "Target Support Files/Pods-AttachPicker_Tests";
 			sourceTree = "<group>";
 		};
 		14E6DFB2EF2036B26EF2C3CC1D750A27 /* AttachPicker */ = {
 			isa = PBXGroup;
 			children = (
-				E2ED4687251A9633004BE72D /* Classes */,
+				E21CE26B2528D8D900FEC4A7 /* Assets.swift */,
+				E2D03F0B2528AFAE00A6D608 /* AttachFileType.swift */,
+				E2D03F0E2528AFAE00A6D608 /* AttachModel.swift */,
+				E2D03F0C2528AFAE00A6D608 /* AttachPicker.swift */,
+				E2D03F0D2528AFAE00A6D608 /* AttachProvider.swift */,
+				E2D03F0F2528AFAE00A6D608 /* Data+MimeType.swift */,
 				6035C0E1FD9CD592F369916E7AF23D2E /* Pod */,
 				C821E826C5944E3BC18258E915666371 /* Support Files */,
 			);
@@ -99,21 +141,21 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		226BB4CA86FBCE984A964FA1C828C3C1 /* Pods-AttachPicker_Tests */ = {
+		58541C061DCF3A300A46EEF8E4AFEDE2 /* Pods-AttachPicker_Example */ = {
 			isa = PBXGroup;
 			children = (
-				2351DF6C42C48E81C816D191A3681EC0 /* Pods-AttachPicker_Tests.modulemap */,
-				2B2214815477214BAFED2EFC624AD9B6 /* Pods-AttachPicker_Tests-acknowledgements.markdown */,
-				33DC5E2E43474096F0DEF2BFA6207C03 /* Pods-AttachPicker_Tests-acknowledgements.plist */,
-				8B11CC927A3C1D90747B7D8AD115C6D4 /* Pods-AttachPicker_Tests-dummy.m */,
-				1C1FA593D41A6D15E7DCFAB7B91AC77F /* Pods-AttachPicker_Tests-frameworks.sh */,
-				5753A4E5C3905B0955A2BBBD2EF47283 /* Pods-AttachPicker_Tests-Info.plist */,
-				D4EC2D13D5C7597C24A6FB42C5A5E2D9 /* Pods-AttachPicker_Tests-umbrella.h */,
-				A55B0D253520CB478F95C705ACA8F225 /* Pods-AttachPicker_Tests.debug.xcconfig */,
-				01001E170D61C9A732E2CA1AA7DEA086 /* Pods-AttachPicker_Tests.release.xcconfig */,
+				0BA3626B78D3D02596E314CB99503C62 /* Pods-AttachPicker_Example.modulemap */,
+				A9B4597765C93B224543A3AB5220A2B3 /* Pods-AttachPicker_Example-acknowledgements.markdown */,
+				8398CF81A6C92CA2CC6A5B32A8FF6209 /* Pods-AttachPicker_Example-acknowledgements.plist */,
+				8D127A0310DD5D80572D8E35EF157AE4 /* Pods-AttachPicker_Example-dummy.m */,
+				E190B20A9006F0DAF40602E2C13E3CEC /* Pods-AttachPicker_Example-frameworks.sh */,
+				C690775C89FFAE2947AD09CC66D6626B /* Pods-AttachPicker_Example-Info.plist */,
+				7FB65575332DEA0E3E2AC6D4221F956D /* Pods-AttachPicker_Example-umbrella.h */,
+				2091A246FD767511F764CB4684754F6B /* Pods-AttachPicker_Example.debug.xcconfig */,
+				5EC0D642447F77E1F53772934E42C9FA /* Pods-AttachPicker_Example.release.xcconfig */,
 			);
-			name = "Pods-AttachPicker_Tests";
-			path = "Target Support Files/Pods-AttachPicker_Tests";
+			name = "Pods-AttachPicker_Example";
+			path = "Target Support Files/Pods-AttachPicker_Example";
 			sourceTree = "<group>";
 		};
 		6035C0E1FD9CD592F369916E7AF23D2E /* Pod */ = {
@@ -124,6 +166,16 @@
 				9116EC527705DC4DCE14FC2BB5233189 /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		A8D6D9831FA00D74293AEBB853F0B033 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32EA832C6C1AFC165839A9F4822F07AD /* AttachPicker.framework */,
+				F28D6C39602835A905D780F3EE3775BC /* Pods_AttachPicker_Example.framework */,
+				FEEF5448F1F2C4A4DFC462DEAD79B458 /* Pods_AttachPicker_Tests.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -156,14 +208,23 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		CCB6422BD408C8110D2AC307CB6BD436 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				58541C061DCF3A300A46EEF8E4AFEDE2 /* Pods-AttachPicker_Example */,
+				0A459E3E2432000C202F3D6DF4E008B6 /* Pods-AttachPicker_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				C8CC0D1A2CC3B36560FC58911349E964 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				F49BD1ABA4771783F3FB4C892ABB4B14 /* Products */,
-				11574619FCC38608714DE17E838E3CBC /* Targets Support Files */,
+				A8D6D9831FA00D74293AEBB853F0B033 /* Products */,
+				CCB6422BD408C8110D2AC307CB6BD436 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -175,36 +236,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E2ED4687251A9633004BE72D /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				E2ED4677251A840D004BE72D /* AttachFileType.swift */,
-				E2ED4678251A840D004BE72D /* AttachModel.swift */,
-				E2ED4679251A840D004BE72D /* AttachPicker.swift */,
-				E2ED4676251A840D004BE72D /* AttachProvider.swift */,
-				E2ED467E251A8650004BE72D /* Data+MimeType.swift */,
-			);
-			name = Classes;
-			path = AttachPicker/Classes;
-			sourceTree = "<group>";
-		};
-		F49BD1ABA4771783F3FB4C892ABB4B14 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				32EA832C6C1AFC165839A9F4822F07AD /* AttachPicker.framework */,
-				FEEF5448F1F2C4A4DFC462DEAD79B458 /* Pods_AttachPicker_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		375866BC9F2F84A69C62945A8BD6AF6B /* Headers */ = {
+		8BFDA6C4C581DFCC3E0081F174FFB333 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF260084122205B3D277FDADB8B476CC /* Pods-AttachPicker_Tests-umbrella.h in Headers */,
+				EE583AD4EA04DE612247F7E3DFE1902C /* Pods-AttachPicker_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB4BC25E2C30D2D3E6F0E1AABD2306CE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9281B883C05B423B6D82CAF1D1B17438 /* Pods-AttachPicker_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,21 +268,40 @@
 /* Begin PBXNativeTarget section */
 		AB715683947B525352DF1D2B07A81DFB /* Pods-AttachPicker_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3AFB45EF6D8051DCE9886B161DBAE163 /* Build configuration list for PBXNativeTarget "Pods-AttachPicker_Tests" */;
+			buildConfigurationList = A389AF8BD94AE7EAB2BE3DB5533C7D98 /* Build configuration list for PBXNativeTarget "Pods-AttachPicker_Tests" */;
 			buildPhases = (
-				375866BC9F2F84A69C62945A8BD6AF6B /* Headers */,
-				28F44052738EB3A5355043E886AF4F6B /* Sources */,
-				4CA7DC3C3B3767AF126DACB2198846CF /* Frameworks */,
-				D469CB669EA80241FBF2138FB6503322 /* Resources */,
+				8BFDA6C4C581DFCC3E0081F174FFB333 /* Headers */,
+				6F46E3670A4214F665D661F3762FB9B5 /* Sources */,
+				3281B43A4FCAE3D7CEAB9C611AC6AB64 /* Frameworks */,
+				62E60B8C5A01B25080021EB1EC1FA95D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				61CCF8B7C102D6F61BA3F816656EB893 /* PBXTargetDependency */,
+				55C2F1B3C9E7E2A8EAA4A9CDF24DBC3D /* PBXTargetDependency */,
 			);
 			name = "Pods-AttachPicker_Tests";
 			productName = "Pods-AttachPicker_Tests";
 			productReference = FEEF5448F1F2C4A4DFC462DEAD79B458 /* Pods_AttachPicker_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D0685F6A8460E71A567EA083E3342EB7 /* Pods-AttachPicker_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A31504A1A8DE94FE156D056E2FD1E29 /* Build configuration list for PBXNativeTarget "Pods-AttachPicker_Example" */;
+			buildPhases = (
+				CB4BC25E2C30D2D3E6F0E1AABD2306CE /* Headers */,
+				A4C629F6DE17E4A05B156811AC933BC2 /* Sources */,
+				70351603AE9351254C2A78390E2D2988 /* Frameworks */,
+				CE43CC5A2C270667BBA318BBCA69C1CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01768D88F1DA41EE62BD7A43BA57F895 /* PBXTargetDependency */,
+			);
+			name = "Pods-AttachPicker_Example";
+			productName = "Pods-AttachPicker_Example";
+			productReference = F28D6C39602835A905D780F3EE3775BC /* Pods_AttachPicker_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D6E002B3A411B4771C3C20BE1B521C26 /* AttachPicker */ = {
@@ -277,19 +343,28 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = F49BD1ABA4771783F3FB4C892ABB4B14 /* Products */;
+			productRefGroup = A8D6D9831FA00D74293AEBB853F0B033 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				D6E002B3A411B4771C3C20BE1B521C26 /* AttachPicker */,
+				D0685F6A8460E71A567EA083E3342EB7 /* Pods-AttachPicker_Example */,
 				AB715683947B525352DF1D2B07A81DFB /* Pods-AttachPicker_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		62E60B8C5A01B25080021EB1EC1FA95D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		663ACF8C547A041E175D7CB2B37DCD94 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -297,7 +372,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D469CB669EA80241FBF2138FB6503322 /* Resources */ = {
+		CE43CC5A2C270667BBA318BBCA69C1CA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -307,11 +382,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		28F44052738EB3A5355043E886AF4F6B /* Sources */ = {
+		6F46E3670A4214F665D661F3762FB9B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				345F438B5BC6EDB7549BD77CD25AD51E /* Pods-AttachPicker_Tests-dummy.m in Sources */,
+				16799E080FD18B88D6107BA59AC71CDD /* Pods-AttachPicker_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,30 +394,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2ED467D251A840D004BE72D /* AttachPicker.swift in Sources */,
-				E2ED467C251A840D004BE72D /* AttachModel.swift in Sources */,
-				E2ED467A251A840D004BE72D /* AttachProvider.swift in Sources */,
-				E2ED467F251A8650004BE72D /* Data+MimeType.swift in Sources */,
+				E2D03F132528AFAE00A6D608 /* AttachModel.swift in Sources */,
+				E21CE26C2528D8D900FEC4A7 /* Assets.swift in Sources */,
+				E2D03F112528AFAE00A6D608 /* AttachPicker.swift in Sources */,
+				E2D03F102528AFAE00A6D608 /* AttachFileType.swift in Sources */,
+				E2D03F142528AFAE00A6D608 /* Data+MimeType.swift in Sources */,
 				C06D86460AC17EF1B2D505C0215E91E4 /* AttachPicker-dummy.m in Sources */,
-				E2ED467B251A840D004BE72D /* AttachFileType.swift in Sources */,
+				E2D03F122528AFAE00A6D608 /* AttachProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4C629F6DE17E4A05B156811AC933BC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24B8DC24C8612098B45A98D37F8376EA /* Pods-AttachPicker_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		61CCF8B7C102D6F61BA3F816656EB893 /* PBXTargetDependency */ = {
+		01768D88F1DA41EE62BD7A43BA57F895 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AttachPicker;
 			target = D6E002B3A411B4771C3C20BE1B521C26 /* AttachPicker */;
-			targetProxy = 8F710546CD55E8A473DF33018B978842 /* PBXContainerItemProxy */;
+			targetProxy = 49DE033556C17350707FD263F34C44EF /* PBXContainerItemProxy */;
+		};
+		55C2F1B3C9E7E2A8EAA4A9CDF24DBC3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AttachPicker_Example";
+			target = D0685F6A8460E71A567EA083E3342EB7 /* Pods-AttachPicker_Example */;
+			targetProxy = 72A607E0C3C7A6810BCE5DA19BD7624E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3D918CAD4CD2AD538C1208D36E0A3BF2 /* Debug */ = {
+		1458F6BE63428672B20E4A95DA8FB70D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A55B0D253520CB478F95C705ACA8F225 /* Pods-AttachPicker_Tests.debug.xcconfig */;
+			baseConfigurationReference = 47718084F807268EC23A36B24DFEC8ED /* Pods-AttachPicker_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -360,6 +450,40 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-AttachPicker_Tests/Pods-AttachPicker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		196947589FA26E45B854484AB1B8C917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2091A246FD767511F764CB4684754F6B /* Pods-AttachPicker_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AttachPicker_Example/Pods-AttachPicker_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AttachPicker_Example/Pods-AttachPicker_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -377,6 +501,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0F65D87DACFBC5E1B320D0F03D598651 /* AttachPicker.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -391,14 +516,14 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MARKETING_VERSION = 0.4.0;
+				MARKETING_VERSION = 1.0.0;
 				MODULEMAP_FILE = "Target Support Files/AttachPicker/AttachPicker.modulemap";
 				PRODUCT_MODULE_NAME = AttachPicker;
 				PRODUCT_NAME = AttachPicker;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -410,6 +535,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0F65D87DACFBC5E1B320D0F03D598651 /* AttachPicker.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -424,23 +550,24 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MARKETING_VERSION = 0.4.0;
+				MARKETING_VERSION = 1.0.0;
 				MODULEMAP_FILE = "Target Support Files/AttachPicker/AttachPicker.modulemap";
 				PRODUCT_MODULE_NAME = AttachPicker;
 				PRODUCT_NAME = AttachPicker;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		71F367726D8E05701772674748EAECB8 /* Release */ = {
+		944F6251D4A7EB10626956D4EC01F3E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 01001E170D61C9A732E2CA1AA7DEA086 /* Pods-AttachPicker_Tests.release.xcconfig */;
+			baseConfigurationReference = 13A79145446DDDC39446A8FF9DACAF15 /* Pods-AttachPicker_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -466,11 +593,10 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		B0087CB4594321EF41619F3181FE120E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -520,7 +646,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -582,7 +708,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -595,14 +721,48 @@
 			};
 			name = Debug;
 		};
+		D06DBD41E5A70A1C2DCB203EE5A5D35C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EC0D642447F77E1F53772934E42C9FA /* Pods-AttachPicker_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AttachPicker_Example/Pods-AttachPicker_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AttachPicker_Example/Pods-AttachPicker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3AFB45EF6D8051DCE9886B161DBAE163 /* Build configuration list for PBXNativeTarget "Pods-AttachPicker_Tests" */ = {
+		1A31504A1A8DE94FE156D056E2FD1E29 /* Build configuration list for PBXNativeTarget "Pods-AttachPicker_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3D918CAD4CD2AD538C1208D36E0A3BF2 /* Debug */,
-				71F367726D8E05701772674748EAECB8 /* Release */,
+				196947589FA26E45B854484AB1B8C917 /* Debug */,
+				D06DBD41E5A70A1C2DCB203EE5A5D35C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -621,6 +781,15 @@
 			buildConfigurations = (
 				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
 				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A389AF8BD94AE7EAB2BE3DB5533C7D98 /* Build configuration list for PBXNativeTarget "Pods-AttachPicker_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				944F6251D4A7EB10626956D4EC01F3E8 /* Debug */,
+				1458F6BE63428672B20E4A95DA8FB70D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

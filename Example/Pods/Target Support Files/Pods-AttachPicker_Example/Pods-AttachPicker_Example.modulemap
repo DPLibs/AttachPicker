@@ -1,0 +1,6 @@
+framework module Pods_AttachPicker_Example {
+  umbrella header "Pods-AttachPicker_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

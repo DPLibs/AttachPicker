@@ -1,6 +1,11 @@
 use_frameworks!
-target 'AttachPicker_Tests' do
+
+target 'AttachPicker_Example' do
   pod 'AttachPicker', :path => '../'
-  
-  
+
+  target 'AttachPicker_Tests' do
+    inherit! :search_paths
+
+    
+  end
 end

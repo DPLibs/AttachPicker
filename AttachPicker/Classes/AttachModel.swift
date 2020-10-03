@@ -2,15 +2,15 @@ import Foundation
 import UIKit
 
 // MARK: - AttachModel
-struct AttachModel {
-    let type: AttachType
-    let fileData: Data?
-    let fileExtension: String
-    let fileName: String
-    let mimeType: String
-    let image: UIImage?
+public struct AttachModel {
+    public let type: AttachType
+    public let fileData: Data?
+    public let fileExtension: String
+    public let fileName: String
+    public let mimeType: String
+    public let image: UIImage?
     
-    init?(localUrl: URL) {
+    public init?(localUrl: URL) {
         guard let data = try? Data(contentsOf: localUrl) else { return nil }
         self.type = AttachType(data.mimeType)
         self.fileData = data
@@ -20,7 +20,7 @@ struct AttachModel {
         self.image = nil
     }
     
-    init?(image: UIImage) {
+    public init?(image: UIImage) {
         guard let data = image.pngData() else { return nil }
         self.type = AttachType(data.mimeType)
         self.fileData = data
@@ -33,12 +33,12 @@ struct AttachModel {
 }
 
 // MARK: - AttachType
-enum AttachType {
+public enum AttachType {
     case image
     case video
     case document
     
-    init(_ fileContentType: String) {
+    public init(_ fileContentType: String) {
         switch fileContentType.split(separator: "/").first ?? "" {
         case "image":
             self = .image

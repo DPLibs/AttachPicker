@@ -2,10 +2,10 @@ import Foundation
 import UIKit
 
 // MARK: - AttachPicker
-class AttachPicker: NSObject {
+open class AttachPicker: NSObject {
     
     // MARK: - Props
-    weak var viewController: UIViewController?
+    public weak var viewController: UIViewController?
     public var didSelect: ([AttachModel]) -> Void = { _ in }
     
     open func present(_ providers: Set<AttachProvider>, title: String? = nil, message: String? = nil, preferredStyle style: UIAlertController.Style = .actionSheet, completion: (() -> Void)? = nil) {
@@ -22,7 +22,7 @@ class AttachPicker: NSObject {
                 self?.presentSinglePicker(provider)
             }))
         })
-        alert.addAction(UIAlertAction(title: NSLocalizedString("Cancel", comment: ""), style: .cancel, handler: nil))
+        alert.addAction(UIAlertAction(title: Assets.cancelText, style: .cancel, handler: nil))
         
         DispatchQueue.main.async { [weak self] in
             self?.viewController?.present(alert, animated: true, completion: completion)
@@ -49,7 +49,7 @@ class AttachPicker: NSObject {
 // MARK: - UIDocumentPickerDelegate
 extension AttachPicker: UIDocumentPickerDelegate {
 
-    func documentPicker(_ controller: UIDocumentPickerViewController, didPickDocumentsAt urls: [URL]) {
+    public func documentPicker(_ controller: UIDocumentPickerViewController, didPickDocumentsAt urls: [URL]) {
         let attachList = urls.map({ AttachModel(localUrl: $0) }) as? [AttachModel] ?? []
         self.didSelect(attachList)
     }
@@ -59,11 +59,11 @@ extension AttachPicker: UIDocumentPickerDelegate {
 // MARK: - UIImagePickerControllerDelegate, UINavigationControllerDelegate
 extension AttachPicker: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
-    func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+    public func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
         picker.dismiss(animated: true, completion: nil)
     }
 
-    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey: Any]) {
+    public func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey: Any]) {
         var attach: AttachModel?
         if let url = info[UIImagePickerController.InfoKey.mediaURL] as? URL {
             attach = AttachModel(localUrl: url)

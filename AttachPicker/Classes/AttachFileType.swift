@@ -2,20 +2,20 @@ import Foundation
 import MobileCoreServices
 
 // MARK: - AttachFileType
-protocol AttachFileType: Hashable {
+public protocol AttachFileType: Hashable {
     var kUTType: CFString { get }
     var kUTTypeString: String { get }
     
     init(_ kUTType: CFString)
 }
 
-extension AttachFileType {
+public extension AttachFileType {
     var kUTTypeString: String {
         String(self.kUTType)
     }
 }
 
-extension Set where Element: AttachFileType {
+public extension Set where Element: AttachFileType {
     var toStrings: [String] {
         self.map({ $0.kUTTypeString })
     }
@@ -23,9 +23,9 @@ extension Set where Element: AttachFileType {
 
 // MARK: - AttachMediaType
 public struct AttachMediaType: AttachFileType {
-    let kUTType: CFString
+    public let kUTType: CFString
     
-    init(_ kUTType: CFString) {
+    public init(_ kUTType: CFString) {
         self.kUTType = kUTType
     }
     
@@ -41,9 +41,9 @@ extension Set where Element == AttachMediaType {
 
 // MARK: - AttachDocumentType
 public struct AttachDocumentType: AttachFileType {
-    let kUTType: CFString
+    public let kUTType: CFString
     
-    init(_ kUTType: CFString) {
+    public init(_ kUTType: CFString) {
         self.kUTType = kUTType
     }
     
@@ -60,7 +60,7 @@ public struct AttachDocumentType: AttachFileType {
     static let plainText = AttachDocumentType(kUTTypePlainText)
 }
 
-extension Set where Element == AttachDocumentType {
+public extension Set where Element == AttachDocumentType {
     static let `default`: Self = [.text, .content, .item, .data, .pdf, .png, .jpeg, .bmp, .tiff, .xml, .plainText]
     static let popular: Self = [.text, .data, .pdf, .png, .jpeg, .plainText]
     

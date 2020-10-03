@@ -1,6 +1,8 @@
 import Foundation
 import UIKit
 
+public protocol UIPicker: Hashable {}
+
 public struct AttachProvider: Hashable {
     
     // MARK: - Props
@@ -8,15 +10,16 @@ public struct AttachProvider: Hashable {
     let imagePicker: UIImagePickerController?
     let documentPicker: UIDocumentPickerViewController?
     
+    public init(title: Title, imagePicker: UIImagePickerController?, documentPicker: UIDocumentPickerViewController?) {
+        self.title = title
+        self.imagePicker = imagePicker
+        self.documentPicker = documentPicker
+    }
+    
     // MARK: - Static
     public enum Title: Hashable {
         case `default`
         case custom(text: String, style: UIAlertAction.Style)
-        
-        static let documentsText = NSLocalizedString("Documents", comment: "")
-        static let cameraText = NSLocalizedString("Camera", comment: "")
-        static let galleryText = NSLocalizedString("Gallery", comment: "")
-        static let unknownText = NSLocalizedString("Unknown", comment: "")
         
         func text(_ provider: AttachProvider) -> String {
             switch self {
@@ -24,19 +27,19 @@ public struct AttachProvider: Hashable {
                 return text
             case .default:
                 if provider.documentPicker != nil {
-                    return Title.documentsText
+                    return Assets.documentsText
                 } else if let picker = provider.imagePicker {
                     switch picker.sourceType {
                     case .camera:
-                        return Title.cameraText
+                        return Assets.cameraText
                     case .photoLibrary,
                          .savedPhotosAlbum:
-                        return Title.galleryText
+                        return Assets.galleryText
                     @unknown default:
-                        return Title.unknownText
+                        return Assets.unknownText
                     }
                 } else {
-                    return Title.unknownText
+                    return Assets.unknownText
                 }
             }
         }
@@ -89,9 +92,9 @@ public struct AttachProvider: Hashable {
     }
 }
 
-extension Set where Element == AttachProvider {
-    static let defaultSingleSelect: Self = [.photoLibrary, .camera, .documentsSingleSelection]
-    static let defaultMultiSelect: Self = [.photoLibrary, .camera, .documentsMultipleSelection]
+public extension Set where Element == AttachProvider {
+    static let defaultSingleSelection: Self = [.photoLibrary, .camera, .documentsSingleSelection]
+    static let defaultMultiSelection: Self = [.photoLibrary, .camera, .documentsMultipleSelection]
     
     static let photoLibrary: Self = [.photoLibrary]
     static let camera: Self = [.camera]
